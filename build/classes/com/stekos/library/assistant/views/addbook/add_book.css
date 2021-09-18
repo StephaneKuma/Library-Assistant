@@ -1,0 +1,16 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+.jfx-button {
+    -fx-text-fill: white;
+    -fx-background-color: blue;
+}
+
+.jfx-button:hover {
+    -fx-background-color: green;
+}

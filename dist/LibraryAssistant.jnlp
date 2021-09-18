@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="LibraryAssistant.jnlp">
+  <information>
+    <title>LibraryAssistant</title>
+    <vendor>Stekos</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="LibraryAssistant.jar" size="16198" download="eager" />
+    <jar href="lib\controlsfx-8.0.1.jar" size="296347" download="eager" />
+    <jar href="lib\eclipselink.jar" size="8478776" download="eager" />
+    <jar href="lib\javax.persistence_2.1.0.v201304241213.jar" size="164637" download="eager" />
+    <jar href="lib\jfoenix-8.0.10.jar" size="2710207" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="843090" download="eager" />
+    <jar href="lib\org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" size="1366247" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="LibraryAssistant" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="com.stekos.library.assistant.Main"  name="LibraryAssistant" />
+  <update check="always"/>
+</jnlp>
